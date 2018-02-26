@@ -1,33 +1,60 @@
 // even or odd
-let n = ;
-let result = ;
+let n = 6;
+let result;
 
-/*
-  your code
-*/
+if (n % 2 === 0) {
+  result = "even"
+} else {
+  result = "odd"
+}
 
 console.log(result); // prints even or odd
 
 
 
 // weekday
-let weekdayNumber = ;
-let weekday = ;
+let weekdayNumber = 1;
+let weekday = "";
 
-/*
-  your code
-*/
+switch (weekdayNumber){
+  case 1: 
+    weekday = "Monday";
+    break;
+  case 2:
+    weekday = "Tuesday";
+    break;
+  case 3:
+    weekday = "Wednesday";
+    break;
+  case 4:
+    weekday = "Thursday";
+    break;
+  case 5:
+    weekday = "Friday";
+    break;
+  case 6:
+    weekday = "Saturday";
+    break;
+  case 7:
+    weekday = "Sunday";
+    break;
+  default:
+    console.log('default');
+    break;
+}
 
 console.log(weekday); // monday, tuesday, wed... weekend for sat and sun
 
 
 // max
-let a = ;
-let b = ;
-let max = ;
+let a = 5;
+let b = 9;
+let max;
 
-/*
-  your code
-*/
+if (a > b) {
+  max = a;
+} else {
+  max = b;
+}
 
 console.log(max); // should print a or b
